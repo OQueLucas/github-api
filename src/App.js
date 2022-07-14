@@ -1,30 +1,14 @@
 import Layout from "./components/layout";
+import Profile from "./components/profile";
+import { ResetCSS } from "./global/resetCSS";
 
-function App() {
+const App = () => {
   return (
     <div className="App">
       <main>
+        <ResetCSS />
         <Layout>
-          <div>
-            <img src="https://avatars.githubusercontent.com/u/36959868?v=4" alt="Avatar of User" />
-            <h1>Lucas Queiroz</h1>
-            <h3>username: </h3>
-            <span>OQueLucas</span>
-            <div>
-              <div>
-                <h4>Followers: </h4>
-                <span>5</span>
-              </div>
-              <div>
-                <h4>Starred: </h4>
-                <span>5</span>
-              </div>
-              <div>
-                <h4>Following: </h4>
-                <span>5</span>
-              </div>
-            </div>
-          </div>
+          <Profile />
           <div>
             Repositories
           </div>

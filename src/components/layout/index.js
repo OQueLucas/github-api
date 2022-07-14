@@ -1,15 +1,14 @@
-import React, { Children } from 'react';
+import React from 'react';
+import * as S from './styled'
 
-// import { Container } from './styles';
-
-function Layout({children}) {
+const Layout = ({children}) => {
   return (
-    <section>
+    <S.WrapperLayout>
       <header>
         header
       </header>
       {children}
-    </section>
+    </S.WrapperLayout>
   )
 }
 
