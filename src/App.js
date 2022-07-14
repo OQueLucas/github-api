@@ -1,10 +1,8 @@
-import Header from "./components/header";
 import Layout from "./components/layout";
+import NoSearch from "./components/no-search";
 import Profile from "./components/profile";
 import Repositories from "./components/repositories";
-import { ResetCSS } from "./global/resetCSS";
 import useGithub from "./hooks/github-hooks";
-import GithubProvider from "./providers/github-provider";
 
 const App = () => {
   const { githubState } = useGithub();
@@ -23,9 +21,9 @@ const App = () => {
               )}
             </>
             ) : (
-              <div>No users search</div>
+              <div></div>
             )}
-          
+          <NoSearch />
           </Layout>
     </div>
   );
