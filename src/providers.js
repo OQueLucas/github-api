@@ -7,9 +7,9 @@ const Providers = () => {
   return (
     <main>
       <GithubProvider>
-      <ResetCSS />
-      <App />
-    </GithubProvider>
+        <ResetCSS />
+        <App />
+      </GithubProvider>
     </main>
     )
 }

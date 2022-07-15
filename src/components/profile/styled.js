@@ -28,13 +28,6 @@ export const WrapperInfoUser = styled.div`
   }
 `
 
-export const WrapperStatusCount = styled.div`
-  display: flex;
-  align-items: center;
-  gap: 16px;
-  text-align: center;
-`
-
 export const WrapperUserGeneric = styled.div`
   display: flex;
   align-items: center;

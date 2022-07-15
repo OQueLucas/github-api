@@ -55,6 +55,7 @@ WrapperTabPanel.tabsRole = 'TabPanel'
 
 export const WrapperList = styled.div`
   display: flex;
+  justify-content: flex;
   flex-wrap: wrap;
   gap: 16px;
 `
